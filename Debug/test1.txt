@@ -1,0 +1,10 @@
+lw R1,R0,300
+lw R2,R0,301
+lw R3,R0,302
+mul R4,R2,R3
+mul R5,R1,R2
+lw R6,R0,303
+add R6,R3,R6
+addi R7,R7,8
+sub R3,R6,R7
+sw R6,R0,303

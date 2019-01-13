@@ -1,0 +1,13 @@
+﻿cl : Command line warning D9014: invalid value '2065' for '/wd'; assuming '5999'
+  Source.cpp
+..\..\Source.cpp(117): warning C4101: 'find_rs2': unreferenced local variable
+..\..\Source.cpp(158): warning C4101: 'inp': unreferenced local variable
+..\..\Source.cpp(239): warning C4018: '<=': signed/unsigned mismatch
+..\..\Source.cpp(1401): warning C4018: '<': signed/unsigned mismatch
+..\..\Source.cpp(1567): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  MyForm.cpp
+MyForm.cpp(8): warning C4829: Possibly incorrect parameters to function main. Consider 'int main(Platform::Array<Platform::String^>^ argv)'
+  Generating Code...
+  Source.obj : /DEBUG:FASTLINK is not supported when managed code is present; restarting link with /DEBUG:FULL
+  Final.vcxproj -> D:\Archive\AUC\AUC 5-Fifth Semester\Computer Architecture\Project 2\c++\Final\Debug\Final.exe
+  Final.vcxproj -> D:\Archive\AUC\AUC 5-Fifth Semester\Computer Architecture\Project 2\c++\Final\Debug\Final.pdb (Partial PDB)

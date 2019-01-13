@@ -1,0 +1,13 @@
+lw R1,R0,100
+addi R2,R0,101
+add R3,R2,R1
+addi R4,R0,0
+beq R4,R1,7
+lw R5,R2,0
+mul R5,R5,R1
+sw R5,R3,0
+addi R2,R2,1
+addi R3,R3,1
+addi R4,R4,1
+jmp -8
+add R0,R0,R0

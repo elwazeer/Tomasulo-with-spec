@@ -1,0 +1,10 @@
+addi R1,R0,2
+addi R2,R0,3
+addi R3,R0,7
+jalr R4,R3
+jmp 4
+addi R1,R1,1
+jmp 1
+nand R5,R1,R2
+ret R4
+addi R0,R0,0
